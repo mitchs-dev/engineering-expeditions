@@ -1,0 +1,65 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Engineering Expeditions"
+title_separator: "-"
+email: engineering-expeditions@mitchs.dev
+name: "Mitchell Stanton"
+description: >- # this means to ignore newlines until "baseurl:"
+  A software/hardware engineer, devoted father, husband, and dog dad living in the mountains. This blog blends my passion for technology with family life, offering insights on hardware, software development, parenting, and sustainable living. Join me as we explore the journey of balancing work, family, and the great outdoors!
+baseurl: "/blog/engineering-expeditions" # the subpath of your site, e.g. /blog
+url: "http://mitchs.dev" # the base hostname & protocol for your site, e.g. http://example.com
+show_date: true # show the date at the top of the post
+
+author:
+  name: "Mitchell Stanton"
+  avatar: "https://avatars.githubusercontent.com/u/29029551?v=4"
+  bio: "A software/hardware engineer, devoted father, husband, and dog dad living in the mountains. This blog blends my passion for technology with family life, offering insights on hardware, software development, parenting, and sustainable living. Join me as we explore the journey of balancing work, family, and the great outdoors!"
+  location: "Blue Ridge Mountains, USA"
+  email: "engineering-expeditions@mitchs.dev"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mitchs-dev"
+
+footer:
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github" 
+    url: "https://github.com/mitchs-dev"
+
+# Build settings
+theme: engineering-expeditions-theme
+minimal_mistakes_skin: default
+locale: en-US
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
