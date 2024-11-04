@@ -1,0 +1,17 @@
+{% if site.donation %}
+<section class="page__donate">
+    <h4 class="page__donate-title">{{ site.data.ui-text[site.locale].donate_on_label | default: "Buy me a coffee" }}</h4>
+{% if site.donation.buymeacoffee %}
+    <a href="https://www.buymeacoffee.com/{{ site.donation.buymeacoffee }}" class="btn btn--buymeacoffee" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].donate_on_label | default: 'Donate on' }} Buy Me A Coffee">
+      <img src="{{ site.baseurl }}/assets/images/3rd-party/buymeacoffee.png" alt="Buy Me A Coffee" style="height: 1.75em; vertical-align: middle;">
+      <span></span>
+    </a>{% endif %}
+{% if site.donation.kofi %}
+  <a href="https://ko-fi.com/{{ site.donation.kofi }}" class="btn btn--kofi" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].donate_on_label | default: 'Donate on' }} Ko-fi">
+    <img src="https://storage.ko-fi.com/cdn/brandasset/v2/kofi_symbol.png" alt="Ko-fi" style="height: 1.75em; vertical-align: middle;">
+    <span></span>
+  </a>
+{% endif %}
+</section>
+{% endif %}
+
