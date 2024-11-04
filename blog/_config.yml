@@ -19,22 +19,36 @@ author:
   avatar: "https://avatars.githubusercontent.com/u/29029551?v=4"
   bio: "A software/hardware engineer, devoted father, husband, and dog dad living in the mountains. This blog blends my passion for technology with family life, offering insights on hardware, software development, parenting, and sustainable living. Join me as we explore the journey of balancing work, family, and the great outdoors!"
   location: "Blue Ridge Mountains, USA"
-  email: "engineering-expeditions@mitchs.dev"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:engineering-expeditions@mitchs.dev"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mitchs-dev"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mitchell-stanton"
+    - label: "Buy me a coffee"
+      icon: "fas fa-fw fa-coffee"
+      url: "https://www.buymeacoffee.com/mitch.dev"
+    - label: "Donate on Ko-fi"
+      icon: "fa-solid fa-heart"
+      url: "https://ko-fi.com/mitchsdev"
+
+donation:
+  buymeacoffee: "mitch.dev"
+  kofi: "mitchsdev"
 
 footer:
   - label: "GitHub"
     icon: "fab fa-fw fa-github" 
     url: "https://github.com/mitchs-dev"
 
+
 # Build settings
 theme: engineering-expeditions-theme
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 locale: en-US
 plugins:
   - jekyll-paginate
@@ -43,6 +57,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
