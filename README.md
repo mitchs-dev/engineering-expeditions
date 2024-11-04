@@ -14,15 +14,19 @@ This is the repository for the Engineering Expeditions blog. The blog is built u
 1. Create a new markdown file in the `_posts` directory with the following naming convention: `YYYY-MM-DD-title-of-the-post.md`
 2. Add the following front matter to the top of the file:
 
-```md
 ---
-title: "Title of the post"
-date: 2020-01-01
-author: "Author Name"
-tags: [tag1, tag2]
+title: Welcome to Engineering Expeditions!
+date: 2024-11-04
+categories: non-tech
+
+layout: single
+toc: true
+share: true
+donate: true
+
+excerpt: "My name is Mitch, and I am an engineer who has had the pleasure to work in both hardware and software. I have always been fascinated by the intersection of technology and how it can directly impact the world around us."
 ---
-```
 
 ## To deploy the blog
 
-> **TBD**
+This is automatically done by GitHub Pages.
