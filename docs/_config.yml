@@ -10,8 +10,8 @@ email: engineering-expeditions@mitchs.dev
 name: "Mitchell Stanton"
 description: >- # this means to ignore newlines until "baseurl:"
   A software/hardware engineer, devoted father, husband, and dog dad living in the mountains. This blog blends my passion for technology with family life, offering insights on hardware, software development, parenting, and sustainable living. Join me as we explore the journey of balancing work, family, and the great outdoors!
-baseurl: "/blog/engineering-expeditions" # the subpath of your site, e.g. /blog
-url: "http://mitchs.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/engineering-expeditions" # the subpath of your site, e.g. /blog
+url: "http://blogs.mitchs.dev" # the base hostname & protocol for your site, e.g. http://example.com
 show_date: true # show the date at the top of the post
 
 # Author settings
