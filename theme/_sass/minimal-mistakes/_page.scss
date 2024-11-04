@@ -61,6 +61,13 @@ body {
       width: 100%;
       clear: both;
     }
+    .page__donate {
+      position: relative;
+      float: inline-start;
+      margin-inline: 0;
+      width: 100%;
+      clear: both;
+    }
   }
 }
 
@@ -260,7 +267,7 @@ body {
 }
 
 /*
-   Social sharing
+   Social sharing and donations
    ========================================================================== */
 
 .page__share {
@@ -282,7 +289,30 @@ body {
   }
 }
 
+.page__donate {
+  margin-top: 0.25em;
+  padding-top: 0.25em;
+
+  @include breakpoint(max-width $small) {
+    .btn span {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  }
+}
+
 .page__share-title {
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+}
+.page__donate-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
