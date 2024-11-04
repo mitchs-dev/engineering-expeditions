@@ -37,12 +37,12 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd docs
-          JEKYLL_ENV=production bundle exec jekyll build --destination ../engineering-expeditions/
+          JEKYLL_ENV=production bundle exec jekyll build --destination ../_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: engineering-expeditions
+          path: _site
 
   deploy:
     environment:
