@@ -170,24 +170,35 @@ Another important topic which should be covered in this blog post, is security. 
 
 #### Use a VPN 
 
-A VPN (Virtual Private Network) is a service which allows you to connect to the internet through a secure connection. This is essential when you are using public Wi-Fi networks. This is because public Wi-Fi networks are not secure and can be easily intercepted by a bad actor. It can also help improve your privacy as your IP address is hidden from the websites you visit as well as reduces your visibility to your ISP.
+A VPN (Virtual Private Network) is a service which allows you to connect to the internet through a secure connection. This is essential when you are using public Wi-Fi networks. This is because public Wi-Fi networks are not secure and can be easily intercepted by a bad actor. It can also help improve your privacy as your IP address is hidden from the websites you visit as well as reduces your visibility to your ISP. My personal recommendations are [Private Internet Access (PIA)](https://www.privateinternetaccess.com/pages/buy-a-vpn/1218buyavpn?invite=U2FsdGVkX1-iE-IrOsq1JuxyrK4ppqTNYWpuN3YoLyU%2CGj_KV5babSm0y1smOMM36mS99bE) and [ProtonVPN](https://protonvpn.com/).
+
+> With ProtonVPN, you can utilize their free tier which is a great way to get started with a VPN. However, they also offer a suite of privacy-focused services such as ProtonMail, ProtonCalendar, ProtonDrive, and more. Here is my [referral link](https://pr.tn/ref/795WXAPBRFB0) if you would like to check them out.
+
 ##### Keep your software up to date
 
 Software updates can be an annoying thing. (Trust me, I know!) However, they play an important role, not only in addressing bugs and adding new features, but also in introducing security patches. These patches are essential for ensuring that your software is secure.
 
 #### Don't click on suspicious links
 
-This is a very common way that bad actors can get your information. If you receive an email from someone you don't know, or even from someone you do know, and it looks suspicious, don't click on the link. If you are unsure, it is always better to simply not click on the link.
+This is a very common way that bad actors can get your information. If you receive an email from someone you don't know, or even from someone you do know, and it looks suspicious, don't click on the link. If you are unsure, it is always better to simply not click on the link. Using resources like the [Cloudflare Radar URL Scanner](https://radar.cloudflare.com/scan) can help you determine if a link is safe or not.
+
 #### Use a password manager
 
 Password managers are excellent ways to make sure that your passwords are secure. Most password managers will also help you generate a password which is complex enough to avoid being easily guessed or cracked. They also help reduce the amount of times you have to click the _Forgot Password_ button. :smile:
+
+My personal recommendation is [Proton Pass]() which is an excellent password manager which is included in the Proton suite of services. However, there are many other password managers out there such as [LastPass](https://www.lastpass.com/), [1Password](https://1password.com/), and [Bitwarden](https://bitwarden.com/).
+
+> Once again, Proton Pass is included in the Proton suite of services. Here is my [referral link](https://pr.tn/ref/795WXAPBRFB0) if you would like to check them out.
+
 #### Use a browser with built-in security features
 
 Most modern browsers have built-in security features which can help protect you from malicious websites. These features can range from blocking ads to blocking malicious websites. These features are important in keeping you safe on the internet. My personal recommendation is to use [Brave](https://brave.com/). It is a privacy-focused browser which has a lot of built-in security features as well as other features such as a VPN, Wallet, an AI assistant (Leo) and more.
+
 #### Use multi-factor authentication
 
 Multi-factor authentication is a great way to ensure that your accounts are secure. This is because even if someone gets your password, they will still need another form of authentication to access your account. This can be in the form of a text message, email, or even a physical device. The most secure method here is to use a physical device or authenticator app. Emails and text messages can have the potential to be intercepted, but this can be a good second layer of security.
 
+Most password managers have a built-in multi-factor authentication feature. However, I suggest using a separate multi-factor authentication app as this only enhances the security as this separates your passwords from your multi-factor authentication codes. My recommendation for a multi-factor authentication app is [2FAS](https://2fas.com/). It is an open-source, privacy-focused multi-factor authentication app which is available on most platforms. You can also use a keyboard shortcut to autofill the code which is very handy. If you are wanting to use a physical device, I recommend using a [YubiKey](https://www.yubico.com/). It's important to note that not all services support physical devices for multi-factor authentication, physical devices can be lost or stolen, and they may be more inconvenient to use. But the best decision is up to you.
 
 ### Terminology
 
