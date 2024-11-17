@@ -42,6 +42,77 @@ layout: default
       <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            {% if page.complexity and page.complexity > 0 %}
+              <div class="gauge-container">
+                <div class="gauge-label" id="gauge-label-{{ page.id }}">
+                  <i class="fa-solid fa-chart-simple"></i> Reader Complexity
+                </div>
+                <div class="gauge">
+                  <div class="gauge-fill" id="gauge-fill-{{ page.id }}"></div>
+                </div>
+              </div>
+              <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                  setComplexity({{ page.complexity }}, "{{ page.id }}");
+                });
+
+                function setComplexity(complexity, pageId) {
+                  const gaugeFill = document.getElementById('gauge-fill-' + pageId);
+                  const gaugeLabel = document.getElementById('gauge-label-' + pageId);
+                  const levels = [0, 20, 40, 60, 80, 100]; // Corresponding percentages for levels 0-5
+                  const complexityLevel = Math.min(Math.max(complexity, 0), 5); // Ensure value is between 0 and 5
+
+                  gaugeFill.style.width = levels[complexityLevel] + '%';
+
+                  // Set gradient color based on complexity level
+                  let gradient;
+                  if (complexityLevel <= 1) {
+                    gradient = 'green';
+                  } else if (complexityLevel <= 3) {
+                    gradient = 'linear-gradient(to right, green, yellow)';
+                  } else {
+                    gradient = 'linear-gradient(to right, green, yellow, red)';
+                  }
+                  gaugeFill.style.background = gradient;
+
+                  gaugeLabel.innerHTML = '<i class="fa-solid fa-chart-simple"></i> Reader Complexity';
+                }
+              </script>
+              <style>
+                .gauge-container {
+                  width: 100%;
+                  max-width: 300px;
+                  margin: 20px 0;
+                  text-align: left;
+                  border: 1px solid #cecfd1;
+                }
+                .gauge {
+                  width: 100%;
+                  height: 1em;
+                  background: black;
+                  overflow: hidden;
+                  position: relative;
+                }
+                .gauge-fill {
+                  width: 0;
+                  height: 100%;
+                  transition: width 0.5s ease-in-out;
+                  margin: 0;
+                  padding: 0;
+                }
+                .gauge-label {
+                  color: #fff;
+                  font-size: 0.75em;
+                  background: #0092ca;
+                  border-start-start-radius: 4px;
+                  border-start-end-radius: 4px;
+                  margin: 10px 0 0 0; /* Add margin to create space */
+                  padding: 0.5rem 0.75rem;
+                  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+                  font-weight: bold;
+                }
+              </style>
+            {% endif %}
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
