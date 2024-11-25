@@ -1,37 +1,13 @@
 # Engineering Expeditions Blog
 
-This is the repository for the Engineering Expeditions blog. The blog is built using [Jekyll](https://jekyllrb.com/) and a customized version of the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
+Welcome to the Engineering Expeditions blog repository! This blog is a space where we explore the fascinating intersection of hardware and software engineering. Here, you'll find posts about various engineering topics, personal experiences, and insights into the latest trends and technologies.
 
-## To run the blog locally
+## About the Blog
 
-1. Clone the repository
-2. Install Jekyll and Bundler
-3. Install the dependencies by running `bundle install`
-4. Run the blog locally by running `bundle exec jekyll serve`
+The Engineering Expeditions blog is built using [Jekyll](https://jekyllrb.com/) and a customized version of the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme. The goal is to share knowledge, inspire innovation, and foster a community of like-minded individuals who are passionate about engineering.
 
-## To create a new post
+## Visit The Blog
 
-1. Create a new markdown file in the `_posts` directory with the following naming convention: `YYYY-MM-DD-title-of-the-post.md`
-2. Add the following front matter to the top of the file:
+You can read the latest posts and explore the content at [ee.mitchs.dev](https://ee.mitchs.dev). We hope you enjoy your time here and find the information valuable and engaging.
 
-```md
----
-# Information about the post
-title: Welcome to Engineering Expeditions!
-date: 2024-11-04
-categories: non-tech
-
-# Required for page rendering
-layout: single
-toc: true
-share: true
-donate: true
-
-# Not required, but can be used to provide a short excerpt to the post
-excerpt: "My name is Mitch, and I am an engineer who has had the pleasure to work in both hardware and software. I have always been fascinated by the intersection of technology and how it can directly impact the world around us."
----
-```
-
-## To deploy the blog
-
-This is automatically done by GitHub Pages.
+Thank you for visiting the Engineering Expeditions blog repository!
