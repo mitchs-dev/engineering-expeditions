@@ -21,6 +21,9 @@
               >{{ link.title }}</a>
             </li>
           {%- endfor -%}
+          <li class="masthead__menu-item">
+            <a href="{{ 'categories' | relative_url }}">Categories</a>
+          </li>
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">

@@ -69,6 +69,7 @@ footer:
 # Build settings
 theme: engineering-expeditions-theme
 minimal_mistakes_skin: air
+search: true
 locale: en-US
 plugins:
   - jekyll-paginate
