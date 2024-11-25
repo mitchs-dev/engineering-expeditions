@@ -2,7 +2,8 @@ name: Redeploy Engineering Expeditions with GitHub Pages (Tuesday deploy)
 
 on:
     schedule:
-        - cron: '1 0 * * 2'
+        # Runs at 05:01 UTC every Tuesday (00:01 EST)
+        - cron: '1 5 * * 2'
 
 permissions:
     contents: read
