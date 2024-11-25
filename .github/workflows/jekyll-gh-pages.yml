@@ -3,6 +3,8 @@ name: Deploy Engineering Expeditions with GitHub Pages dependencies preinstalled
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - '.github/**'
   workflow_dispatch:
 
 permissions:
