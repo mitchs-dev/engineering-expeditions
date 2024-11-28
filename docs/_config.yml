@@ -4,6 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Engineering Expeditions"
+logo: "/assets/images/favicon/logo.svg"
 title_separator: "-"
 timezone: "America/New_York"
 email: engineering-expeditions@mitchs.dev
