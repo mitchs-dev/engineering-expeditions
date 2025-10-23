@@ -21,6 +21,9 @@ author:
   bio: "A software/hardware engineer, devoted father, husband, and dog dad living in the mountains. This blog blends my passion for technology with family life, offering insights on hardware, software development, parenting, and sustainable living. Join me as we explore the journey of balancing work, family, and the great outdoors!"
   location: "Blue Ridge Mountains, USA"
   links:
+    - label: "Corespark"
+      icon: "fas fa-fw fa-building"
+      url: "https://corespark.com"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:engineering-expeditions@mitchs.dev"
