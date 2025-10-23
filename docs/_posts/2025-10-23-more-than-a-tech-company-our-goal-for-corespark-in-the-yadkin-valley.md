@@ -2,12 +2,14 @@
 title: "More Than a Tech Company: Our Goal for Corespark in the Yadkin Valley and Twin Counties"
 complexity: 1
 date: 2025-10-23
-categories: projects
-tags: [AI, Machine Learning, Blockchain, IoT (Internet of Things), 5G, Programming, Web Development, Mobile Apps, DevOps, Python, JavaScript, Product Reviews, Smartphones, Laptops, Wearables, Cybersecurity, Data Privacy, Tech Tips, How-To Guides, Augmented Reality, Virtual Reality, Quantum Computing, Tech Industry, Startups, Tech News, Cloud Computing, AWS, Azure, UX Design, Open Source,Software Development Lifecycle, Enterprise Software Solutions, Cloud Computing Platforms, Agile Methodologies, DevOps Practices, Open Source Technologies, Software Quality Assurance, Application Programming Interfaces (APIs), User Experience Design, Software Architecture Principles, Cybersecurity Measures, Software Development Tools, Version Control Systems, Continuous Integration and Deployment, Software Maintenance Strategies, Hardware Engineering, Computer Architecture, High-Performance Computing, Gaming Technology, Peripheral Device Innovations, Graphics Processing Units (GPUs), Central Processing Units (CPUs), Motherboard Technologies, Data Storage Solutions, Network Infrastructure, Internet of Things (IoT) Devices, Smart Technology Integration, Wearable Computing Devices, Embedded Systems, Python, Java, JavaScript, C#, C++, Ruby, Go, Swift, PHP, TypeScript, CI, CD, Continuous Integration, Continuous Delivery, Continuous Deployment, CI/CD]
+categories: [business, corespark, general]
+tags: [Yadkin Valley, Small Business, SMB, IT consulting, Software Development, Tech Partner, Business Strategy, Corespark, Twin Counties]
 
 
-excerpt: "I'm excited to announce the launch of Corespark, a technology company dedicated to being a trusted local technology partner for small and medium-sized businesses in the Yadkin Valley and Twin Counties. Our mission is to help local businesses navigate the digital world with right-sized solutions that drive real business outcomes.
+excerpt: "I'm launching Corespark in the Yadkin Valley (NW North Carolina) and Twin Counties (SW Virginia) not just as a tech company, but as a 'Technology Architect' for local businesses. This post shares my personal goal: to bridge the digital gap for SMBs by moving beyond websites to provide right-sized, strategic solutions."
 ---
+
+<img src="https://corespark.io/logo_w_text.webp" alt="Corespark Logo" style="height: 75px;">
 
 I'm thrilled to officially announce the launch of my new venture, Corespark. While on paper we're a technology company, my goal is for us to be something more: a dedicated partner for the small and medium-sized businesses that are the lifeblood of our home in the Yadkin Valley and Twin Counties.
 
@@ -17,7 +19,7 @@ Local business owners know they *need* to keep up—with their website, with the
 
 This is the gap Corespark was created to fill.
 
-## **Our Mission: To Be Your Trusted Local Technology Partner**
+## **Our Mission**
 
 Our entire business model is built around one core idea, which has become our company motto: to be your **"Trusted Local Technology Partner."**
 
@@ -42,19 +44,14 @@ We want to understand your business, your frustrations, and your goals.
 
 Only after we understand the *problem* can we architect a *solution*. Sometimes, that solution is a new website. But it might also be a small, affordable "micro-solution" to automate a single task. It might be a strategic plan to help you get more out of the tools you already pay for. Or it might be a consultation on how to safely and effectively use new AI tools to make your team more efficient.
 
-## **Our Commitment to the Yadkin Valley**
+## **Our Commitment to the Yadkin Valley and Twin Counties**
 
 Corespark is my commitment to the local business community. My goal is to break the cycle of complexity and frustration and to provide the strategic guidance that has, until now, been out of reach for many SMBs.
 
 We're here to build long-term relationships, to provide honest advice, and to help our local economy thrive in the digital age.
 
-If you're a business owner in the Yadkin Valley and feel like technology is a problem you have to *manage* instead of a tool you can *use*, let's talk.
+If you're a business owner in the Yadkin Valley or Twin Counties and feel like technology is a problem you have to *manage* instead of a tool you can *use*, let's talk.
 
-You can learn more about our approach at [https://corespark.io](https://corespark.io) or give us a call at \+1 (336) 443-2223.
+You can learn more about our approach at [corespark.io](https://corespark.io) or give us a call at [(336) 443-2223](tel:+13364432223).
 
-I can't wait to get started.
-
-## Sources
-
-1. This is actually taken from the README of the [worklog principles](https://github.com/mitchs-dev/worklog#principles).
-2. Date was taken from: https://www.inc.com/melanie-curtin/in-an-8-hour-day-the-average-worker-is-productive-for-this-many-hours.html
+I can't wait to get started!
